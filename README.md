@@ -1,14 +1,14 @@
-# hello_world
-hello world c++
-# プロジェクト名
-これはサンプルの `README.md` です。
+# HelloWorld (C++)
 
-## 特徴
-- 簡単にセットアップ可能
-- クロスプラットフォーム対応
-- MITライセンス
+This repository contains a simple C++ program that prints `"Hello, World!"` to the console.
 
-## インストール方法
-1. リポジトリをクローン：
-   ```sh
-   git clone https://github.com/ユーザー名/リポジトリ名.git
+## 📌 File Structure
+- `helloworld.cc` – The main C++ program.
+- `README.md` – This documentation file.
+
+## 🔧 Compilation and Execution
+
+### **1. Compile**
+Use the following command to compile the program:
+```sh
+g++ helloworld.cc -o helloworld
